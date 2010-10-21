@@ -1,0 +1,12 @@
+.b-cards[class]
+{
+	position: relative;
+	zoom: 1;
+	width: 100%;
+}
+
+.b-cards li
+{
+	display: inline;
+	zoom: 1;
+}

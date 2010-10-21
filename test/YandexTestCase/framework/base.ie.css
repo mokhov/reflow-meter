@@ -1,0 +1,3 @@
+html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+
+.g-line { zoom: 1; } 

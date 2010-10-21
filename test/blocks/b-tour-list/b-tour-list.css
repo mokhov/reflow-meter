@@ -1,0 +1,36 @@
+.b-tour-list
+{
+    margin-bottom: 0;
+    padding: 10px 15px 0;
+}
+
+.b-tour-list__item
+{
+    padding: 0 0 10px;
+}
+
+
+.b-tour-list__title
+{
+    margin: 10px 0 10px 12px;
+}
+.b-tour-list__name
+{
+    font: 2.5em Calibri, Myriad Pro, Arial;
+
+    margin-right: 0.25em;
+    
+    display: inline;
+}
+
+.b-tour-list__all-link
+{
+    font: 1.1em Arial;
+    
+    color: #008692;
+}
+
+a.b-tour-list__all-link:hover
+{
+    color: #75bbc1;
+}

@@ -1,0 +1,22 @@
+.b-input,
+.b-input__wrapper
+{
+    zoom: 1;
+}
+
+.b-input__border
+{
+    font: 0/0 a;
+}
+
+
+* html .b-input__border
+{
+    background: url(b-input.ie.png) no-repeat;
+}
+
+.b-input__border_tl,
+.b-input__border_bl
+{
+    padding-left: 2px;
+}

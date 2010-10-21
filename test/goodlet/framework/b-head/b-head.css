@@ -1,0 +1,8 @@
+@import url(logo/b-head__logo.css);
+@import url(slogan/b-head__slogan.css);
+@import url(user-menu/b-head__user-menu.css);
+
+.b-head
+{
+	padding-top: 15px;
+}

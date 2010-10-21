@@ -1,0 +1,12 @@
+/* Задисабленная страна (begin) */ /**/
+    .b-country_disabled
+    {
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity = 30);
+    }
+    .b-country_disabled .b-country__name
+    {
+        filter:progid:DXImageTransform.Microsoft.Chroma(color=#a3dafd);
+        zoom:1;
+        background-color:#a3dafd;
+    }
+/* Задисабленная страна (end) */ /**/

@@ -1,0 +1,21 @@
+.b-round_13 i
+{
+    background-position: 0 -22px;
+    width: 13px;
+    height: 26px;
+}
+.b-round_13 .r
+{
+    left: -13px;
+    background-position: -13px -22px;
+}
+.b-round_13 .t
+{
+    clip: rect(auto auto 13px auto);
+}
+.b-round_13 .b
+{
+    margin-top: -26px;
+    
+    clip: rect(13px auto auto auto);
+}

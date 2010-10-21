@@ -1,0 +1,12 @@
+.b-tour-small-image
+{
+    width: 59px;
+    height: 60px;
+
+    display: block;
+
+    border: 2px solid #fff;
+    border-radius: 30px; /* Gecko (Firefox 3.6+) */
+    -moz-border-radius: 30px; /* WebKit (Safari/Chrome) */
+    -webkit-border-radius: 30px;
+}

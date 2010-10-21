@@ -1,0 +1,127 @@
+.b-card {
+	/*display: inline-block;*/ /* ЕБУЧАЯ ОПЕРА 9.6! НЕНАВИЖУ ТЕБЯ!!! Убила всю красоту решения! */
+	float: left;
+	position: relative;
+}
+
+.b-card_corner, .b-card_suit
+{
+	background: url(b-card-sprite.jpg) no-repeat;
+	display: block;
+	position: absolute;
+	z-index: 10;
+	
+	font: 0/0 a;
+}
+.b-card_corner {
+	width: 7px; height: 8px;
+	} 
+	
+.b-card_suit-t
+{
+	top: 9px; left: 9px;
+}
+
+.b-card_suit-b
+{
+	bottom: 9px; right: 9px;
+}
+
+.b-card__top-l 
+{
+	background-position: 0 0;
+	left: 0px;
+	top: 0px;
+} 
+.b-card__top-r 
+{
+	background-position: -7px 0;
+	margin-left: 100%;
+	left: -7px;
+	top: 0px;
+} 
+
+
+.b-card__middle
+{
+	font: 3.6em Georgia;
+	padding: 2.5em 2em 2.5em;
+	border: 1px solid #717165;
+	position: relative;
+}
+
+
+/* b-card bottom */
+.b-card__bottom-l 
+{
+	background-position: 0 -8px;
+	margin-top: -8px;
+} 
+.b-card__bottom-r 
+{
+	background-position: -7px -8px;
+	margin-left: 100%;
+	left: -7px;
+	margin-top: -8px;
+} 
+
+/* Мастезависимые параметры */
+
+/* Червы */
+.b-card_hearts .b-card__middle
+{
+	color: #cb2d1f;
+}
+.b-card_hearts .b-card_suit-t
+{
+	width: 25px; height: 22px;
+	background-position: -72px 0;
+}
+.b-card_hearts .b-card_suit-b
+{
+	width: 25px; height: 22px;
+	background-position: -72px -22px;
+}
+
+/* Бубны */
+.b-card_diams .b-card__middle
+{
+	color: #cb2d1f;
+}
+.b-card_diams .b-card_suit
+{
+	width: 23px; height: 23px;
+	background-position: 0 -27px;
+}
+
+/* Крести */
+.b-card_clubs .b-card__middle
+{
+	color: black;
+}
+.b-card_clubs .b-card_suit-t
+{
+	width: 25px; height: 25px;
+	background-position: -23px 0;
+}
+.b-card_clubs .b-card_suit-b
+{
+	width: 25px; height: 25px;
+	background-position: -23px -25px;
+}
+
+/* Крести */
+.b-card_spades .b-card__middle
+{
+	color: black;
+}
+.b-card_spades .b-card_suit-t
+{
+	width: 24px; height: 25px;
+	background-position: -48px 0;
+}
+.b-card_spades .b-card_suit-b
+{
+	width: 24px; height: 25px;
+	background-position: -48px -25px;
+}

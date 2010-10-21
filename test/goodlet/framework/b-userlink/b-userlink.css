@@ -1,0 +1,17 @@
+@import url(icon/b-userlink__icon.css);
+
+.b-userlink
+{
+	font: bold 1.3em Arial;
+	
+	position: relative;
+	
+	color: #53be20;
+    text-decoration: none;
+    border-bottom: 1px solid #a9df90;
+}
+
+.b-userlink:hover
+{
+	color: #9ded77;
+}

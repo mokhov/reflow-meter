@@ -1,0 +1,12 @@
+.b-menu
+{
+    zoom: 1;
+}
+
+.b-menu__item_active .b-menu__link
+{
+    margin: 0;
+    padding: 9px 10px 8px;
+    
+    display: block;
+}

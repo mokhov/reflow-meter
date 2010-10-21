@@ -1,0 +1,25 @@
+.b-gradient-background 
+{
+	position: relative;
+	
+	margin-left: -10px;
+}
+.b-gradient-background_gradient-image
+{
+	position: absolute;
+	z-index: 1;
+	
+	width: 100%;
+	height: 100%;
+}
+.b-gradient-background_text
+{
+	position: relative;
+	z-index: 2;
+	
+	padding-left: 10px;
+	
+	color: white;
+	
+	font: 2.4em Arial;
+}

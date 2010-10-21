@@ -1,0 +1,21 @@
+.b-popular__items-wrapper
+{
+	position: relative;
+	left: -3px;
+	
+	width: 100%;
+	padding-left: 3px;
+	
+	overflow: hidden;
+}
+
+.b-popular__items
+{
+	width: 1685%;
+}
+
+.b-popular__items-item
+{
+	float: left;
+	width: 1%;
+}

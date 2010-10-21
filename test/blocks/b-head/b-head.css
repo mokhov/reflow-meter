@@ -1,0 +1,75 @@
+.b-head
+{
+    position: relative;
+
+    margin-left: 320px;
+    height: 188px;
+}
+
+/* Логотип (begin) */ /**/
+    .b-head__logo
+    {
+        position: absolute;
+        top: 0;
+        left: -320px;
+    }
+/* Логотип (end) */ /**/
+
+/* Контакты (begin) */ /**/
+    .b-head__contacts
+    {
+        position: absolute;
+        bottom: 45px;
+        right: 0;
+
+        width: 100%;
+
+        border-collapse: collapse;
+    }
+
+    .b-head__contacts-item_middle
+    {
+        text-align: center;
+        padding: 0 5px;
+    }
+
+    .b-head__contacts-item_right
+    {
+        text-align: right;
+    }
+
+    /* Телефон (begin) */ /**/
+        .b-head__contacts .b-phone
+        {
+            font: 3em Arial;
+        }
+        .b-head__contacts .b-phone__code
+        {
+            font-size: 0.36em;
+
+            margin-right: 0.3em;
+        }
+    /* Телефон (end) */ /**/
+
+    /* ICQ (begin) */ /**/
+        .b-head__contacts .b-icq
+        {
+            font: 1.3em Arial;
+        }
+    /* ICQ (end) */ /**/
+
+/* Контакты (end) */ /**/
+
+/* Сегодня (begin) */ /**/
+    .b-head__today-word
+    {
+        font: 1.3em Arial;
+
+        color: #7f7f7f;
+    }
+    .b-head__today-date
+    {
+        font: 1.6em Arial;
+    }
+/* Сегодня (end) */ /**/
+

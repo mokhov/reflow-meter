@@ -1,0 +1,9 @@
+.b-tour-where__title
+{
+    font: 4.5em Calibri, Myriad Pro, Arial;
+}
+
+.b-tour-where__title .b-text-shadow__shadow
+{
+    color: #bbb;
+}

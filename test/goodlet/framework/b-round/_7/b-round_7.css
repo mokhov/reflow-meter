@@ -1,0 +1,21 @@
+.b-round_7 i
+{
+	background-position: 0 -8px;
+    width: 7px;
+    height: 14px;
+}
+.b-round_7 .r
+{
+    left: -7px;
+    background-position: -7px -8px;
+}
+.b-round_7 .t
+{
+    clip: rect(auto auto 7px auto);
+}
+.b-round_7 .b
+{
+    margin-top: -14px;
+    
+    clip: rect(7px auto auto auto);
+}

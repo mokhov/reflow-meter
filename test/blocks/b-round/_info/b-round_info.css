@@ -1,0 +1,53 @@
+/* Границы и содержимое (begin) */ /**/
+    .b-round_info .b-round__border,
+    .b-round_info .b-round__content
+    {
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    .b-round_info .b-round__border
+    {
+        height: 3px;
+        margin: 0 3px;
+    }
+
+/* Границы и содержимое (end) */ /**/
+
+/* Уголки (begin) */ /**/
+    .b-round_info .b-round__corner
+    {
+        width: 5px;
+        height: 5px;
+
+        background: url(b-round_info.png) no-repeat;
+    }
+
+    .b-round_info .b-round__corner_t-l
+    {
+        left: -2px;
+        top: -2px;
+
+        clip: rect(2px auto auto 2px);
+    }
+
+    .b-round_info .b-round__corner_t-r
+    {
+        left: -3px;
+        top: -2px;
+
+        clip: rect(2px 3px auto auto);
+    }
+
+    .b-round_info .b-round__corner_b-l
+    {
+        left: -2px;
+
+        clip: rect(auto auto 3px 2px);
+    }
+
+    .b-round_info .b-round__corner_b-r
+    {
+        left: -3px;
+        clip: rect(auto 3px 3px auto);
+    }
+/* Уголки (end) */ /**/

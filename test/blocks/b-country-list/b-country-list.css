@@ -1,0 +1,31 @@
+.b-country-list__title
+{
+    font: 4.5em Calibri, Myriad Pro, Arial;
+
+    margin-bottom: 0.3em;
+}
+
+/* Виды отпусков (begin) */ /**/
+    .b-country-list__vacation-types-list
+    {
+        margin-bottom: 3em;        
+    }
+
+    .b-country-list__vacation-type
+    {
+        float: left;
+
+        margin: 0 0.4em 0.5em 0;
+    }
+
+/* Виды отпусков (end) */ /**/
+
+/* Страны (begin) */ /**/
+    .b-country-list__country
+    {
+        width: 20%;
+        margin-bottom: 3em;
+        
+        float: left;
+    }
+/* Страны (end) */ /**/

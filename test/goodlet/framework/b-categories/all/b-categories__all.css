@@ -1,0 +1,32 @@
+.b-categories__all-wrapper
+{
+    clear: both;
+	overflow: hidden;
+}
+
+.b-categories__all 
+{
+	float: left;
+}
+.b-categories__all-i
+{
+	line-height: 26px;
+	vertical-align: middle;
+	
+	height: 26px;
+	padding: 0 13px;
+	
+	background: #80d7f6;
+}
+.b-categories__all-link
+{
+	font: 1.3em Arial;
+	
+	color: #fff;
+}
+.b-categories__all-arrow
+{
+	font: 1.8em Arial;
+	
+	color: #fff;
+}

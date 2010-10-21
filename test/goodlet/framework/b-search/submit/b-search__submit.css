@@ -1,0 +1,13 @@
+.b-search__submit
+{
+	position: absolute;
+	left: -39px;
+	top: 0;
+	
+	width: 39px;
+	height: 37px;
+	margin-left: 100%;
+	padding: 0;
+	
+	border: 0;
+}

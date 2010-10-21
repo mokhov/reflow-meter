@@ -1,0 +1,18 @@
+.b-round
+{
+    position: relative;
+    zoom: 1;
+}
+
+.b-round__corner
+{
+    position: absolute;
+
+    display: block;
+}
+
+.b-round__corner_t-r,
+.b-round__corner_b-r
+{
+    margin-left: 100%;
+}

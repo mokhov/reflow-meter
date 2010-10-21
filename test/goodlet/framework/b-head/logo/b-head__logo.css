@@ -1,0 +1,11 @@
+.b-head__logo
+{
+	display: block;
+	float: left;
+	
+	width: 127px;
+	height: 56px;
+	margin: 10px -100% 0 0;
+	
+	background: url(b-head__logo.jpg) no-repeat;
+}

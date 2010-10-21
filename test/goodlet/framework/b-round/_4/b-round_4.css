@@ -1,0 +1,20 @@
+.b-round_4 i
+{
+	width: 4px;
+	height: 8px;
+}
+.b-round_4 .r
+{
+	left: -4px;
+	background-position: -4px 0;
+}
+.b-round_4 .t
+{
+	clip: rect(auto auto 4px auto);
+}
+.b-round_4 .b
+{
+	margin-top: -8px;
+	
+	clip: rect(4px auto auto auto);
+}

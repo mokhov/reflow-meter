@@ -1,0 +1,11 @@
+.b-categories__title
+{
+	font: 1.8em/1.1111 Arial;
+	
+	color: #3f4447;
+}
+
+.b-categories__title:hover
+{
+	color: #727475;
+}

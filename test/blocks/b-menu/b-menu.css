@@ -1,0 +1,75 @@
+.b-menu
+{
+    margin-bottom: 40px;
+    
+    background: #fff;
+}
+
+.b-menu__items
+{
+    background: url(../b-head/b-head.jpg) 0 -188px no-repeat;
+    
+    width: 870px;
+    margin: 0 auto;
+    
+    overflow: hidden;
+}
+
+.b-menu__item
+{
+    float: left;
+
+    text-align: center;
+}
+
+.b-menu__link
+{
+    font: 1.6em Arial;
+
+    margin: 9px 10px 8px;
+
+    display: -moz-inline-box;
+    display: inline-block;
+
+    color: #000;
+}      
+
+a.b-menu__link:hover
+{
+    color: #999;
+}
+
+.b-menu__item_active
+{
+    overflow: hidden;
+}
+
+.b-menu__item_active .b-menu__link
+{
+    position: relative;
+    z-index: 2;
+
+    color: #000;
+}
+
+.b-menu__background
+{
+    width: 870px;
+    margin-right: -870px;
+    
+    float: left;
+}
+
+/* Позиционирование background'а, зависит от количества пунктов меню (begin) */ /**/
+    .b-menu__item {width: 145px;} /* Ширина = 870px / Количество пунктов */ /**/
+    .b-menu__item_2 .b-menu__background {margin-left: -145px;}
+    .b-menu__item_3 .b-menu__background {margin-left: -290px;}
+    .b-menu__item_4 .b-menu__background {margin-left: -435px;}
+    .b-menu__item_5 .b-menu__background {margin-left: -580px;}
+    .b-menu__item_6 .b-menu__background {margin-left: -725px;}
+/* Позиционирование background'а, зависит от количества пунктов меню (end) */ /**/
+
+.b-menu__background .b-menu__link
+{
+    visibility: hidden;
+}

@@ -1,0 +1,1235 @@
+/* ../../../media/psf/sites/sunberry/blocks/imports.ie.css: begin */ /**/
+    /* ../../../media/psf/sites/sunberry/blocks/imports.css: begin */ /**/
+        /* ../../../media/psf/sites/sunberry/blocks/reset.css: begin */ /**/
+            html, body, div, span, applet, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            a, abbr, acronym, address, big, cite, code,
+            del, dfn, em, font, img, ins, kbd, q, s, samp,
+            small, strike, strong, sub, sup, tt, var,
+            dl, dt, dd, ol, ul, li,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td {
+            	margin: 0;
+            	padding: 0;
+            	border: 0;
+            	outline: 0;
+            	font-weight: inherit;
+            	font-style: inherit;
+            	font-size: 100%;
+            	font-family: inherit;
+            	vertical-align: baseline;
+            }
+            /* remember to define focus styles! */
+            :focus {
+            	outline: 0;
+            }
+            body {
+            	line-height: 1;
+            	color: black;
+            	background: white;
+            }
+            ol, ul {
+            	list-style: none;
+            }
+            /* tables still need 'cellspacing="0"' in the markup */
+            table {
+            	border-collapse: separate;
+            	border-spacing: 0;
+            }
+            caption, th, td {
+            	text-align: left;
+            	font-weight: normal;
+            }
+            blockquote:before, blockquote:after,
+            q:before, q:after {
+            	content: "";
+            }
+            blockquote, q {
+            	quotes: "" "";
+            }
+
+            body
+            {
+                font-size: 62.5%;
+            }
+
+
+            .g-line:after
+            {
+                display: block;
+                clear: both;
+
+                height: 0;
+
+                content: " ";
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/reset.css: end */ /**/
+
+
+        /* ../../../media/psf/sites/sunberry/blocks/g-line/g-line.css: begin */ /**/
+            .g-line:after
+            {
+                display: block;
+                clear: both;
+
+                height: 0;
+
+                content: " ";
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/g-line/g-line.css: end */ /**/
+
+        /* ../../../media/psf/sites/sunberry/blocks/l-fixed/l-fixed.css: begin */ /**/
+            .l-fixed
+            {
+                width: 870px;
+                margin: 0 auto;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/l-fixed/l-fixed.css: end */ /**/
+
+
+
+        /* Блоки */
+        /* ../../../media/psf/sites/sunberry/blocks/b-beauty/b-beauty.css: begin */ /**/
+            .b-beauty
+            {
+                position: relative;
+                z-index: 1;
+            }
+
+            .b-beauty_main,
+            .b-beauty_main .b-menu__background
+            {
+                background: url(b-beauty/b-beauty_main.jpg) 50% 0 no-repeat;
+            }
+
+            .b-beauty_bubbles,
+            .b-beauty_bubbles .b-menu__background
+            {
+                background: url(b-beauty/b-beauty_bubbles.jpg) 50% 0 no-repeat;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-beauty/b-beauty.css: end */ /**/
+
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-content/b-content.css: begin */ /**/
+            /* Заголовки (begin) */ /**/
+                .b-content h1
+                {
+                    font: 4.5em Calibri, Myriad Pro, Arial;
+
+                    margin-bottom: 0.1em;
+                }
+
+                .b-content h2
+                {
+                    font: 3.5em Calibri, Myriad Pro, Arial;
+
+                    clear: both;
+
+                    margin: .5em 0 0.1em;
+                }
+
+                .b-content h3
+                {
+                    font: 2.4em Calibri, Myriad Pro, Arial;
+
+                    clear: both;
+
+                    margin: 1em 0 .5em;
+                }
+            /* Заголовки (end) */ /**/
+
+            /* Абзацы (begin) */ /**/
+                .b-content p
+                {
+                    font: 1.3em/1.4 Arial;
+
+                    margin-bottom: 0.5em;
+                }
+            /* Абзацы (end) */ /**/
+
+            /* Увеличиваемая картинка (begin) */ /**/
+                .b-content__image
+                {
+                    float: left;
+                    margin: 0 0 20px 0;
+                }
+
+                .b-content__image-description
+                {
+                    font: 1.1em Arial;
+
+                    color: #4f6a7e;
+                }
+
+                .b-content__image-link
+                {
+                    position: relative;
+
+                    display: block;
+                    cursor: pointer;
+                }
+
+                .b-content__image-link_base
+                {
+                    margin: 10px 0;
+                }
+                .b-content__image-link_round
+                {
+                    width: 120px;
+                    height: 120px;
+                    margin: 10px 30px 5px 0;
+
+                    border: 2px solid #fff;
+                }
+
+                .b-content__image-zoomer
+                {
+                    position: absolute;
+                    top: 102px;
+                    left: 102px;
+                    z-index: 1;
+
+                    width: 26px;
+                    height: 26px;
+
+                    display: block;
+
+                    background: url(b-content/b-content__image-zoomer.png) no-repeat;
+                }
+            /* Увеличиваемая картинка (end) */ /**/
+
+            /* Списки (begin) */ /**/
+                .b-content ol
+                {
+                    list-style: decimal;
+
+                    margin-left: 20px;
+
+                    color: #e1004f;
+                }
+                .b-content ol li,
+                .b-content ul li
+                {
+                    font: 1.3em Arial;
+
+                    margin-bottom: 0.5em;
+                }
+
+                .b-content ol li p,
+                .b-content ul li p
+                {
+                    font-size: 1em;
+
+                    margin-bottom: 0.3em;
+
+                    color: #000;
+                }
+
+                .b-content ul li
+                {
+                    padding-left: 20px;
+
+                    background: url(b-content/b-content__ul-marker.gif) 0 8px no-repeat;
+                }
+
+            /* Списки (end) */ /**/
+
+
+            /* Таблицы (begin) */ /**/
+                .b-content table
+                {
+                    width: 100%;
+                    margin: 1em 0;
+
+                    border-collapse: collapse;
+                }
+
+                .b-content__table-thead
+                {
+                    background: #c30548 url(b-content/b-content__table-thead.gif) 0 -3px repeat-x;
+                }
+
+                .b-content .b-content__table-cell_first
+                {
+                    text-align: left;
+                }
+
+                .b-content th,
+                .b-content td
+                {
+                    font: 1.3em Arial;
+
+                    text-align: right;
+                }
+
+                .b-content th
+                {
+                    font-weight: bold;
+
+                    padding: 5px 20px;
+
+                    color: #fff;
+                }
+
+                .b-content td
+                {
+                    padding: 10px 20px 5px;
+
+                    border-bottom: 1px solid #d81a5d;
+                }
+
+                /* Уголки у заголовка таблицы (begin) */ /**/
+                    .b-content__table-thead-corners-wrapper
+                    {
+                        padding: 0 !important;
+                    }
+
+                    .b-content__table-thead-corners
+                    {
+                        position: relative;
+
+                        height: 3px;
+                        margin: 0 3px;
+
+                        background: #c30548 url(b-content/b-content__table-thead.gif) 0 0 repeat-x;
+                    }
+                    .b-content__table-thead-corners_b
+                    {
+                        background: #c30548;
+                    }
+
+                    .b-content__table-thead-corner
+                    {
+                        position: relative;
+
+                        width: 3px;
+                        height: 3px;
+
+                        overflow: hidden;
+                    }
+
+                    .b-content__table-thead-corner div
+                    {
+                        position: relative;
+
+                        width: 5px;
+                        height: 6px;
+
+                        background: url(b-content/b-content__table-thead-corner.png) no-repeat;
+                    }
+
+                    .b-content__table-thead-corner_t-l,
+                    .b-content__table-thead-corner_b-l
+                    {
+                        left: -3px;
+                        float: left;
+                    }
+                    .b-content__table-thead-corner_t-r,
+                    .b-content__table-thead-corner_b-r
+                    {
+                        float: right;
+                        right: -3px;
+                    }
+                    .b-content__table-thead-corner_t-r div
+                    {
+                        left: -2px;
+                    }
+
+                    .b-content__table-thead-corner_b-l div
+                    {
+                        top: -3px;
+                    }
+
+                    .b-content__table-thead-corner_b-r div
+                    {
+                        top: -3px;
+                        left: -2px;
+                    }
+                /* Уголки у заголовка таблицы (end) */ /**/
+            /* Таблицы (end) */ /**/
+
+
+            .b-content blockquote
+            {
+                margin: 10px 0;
+            }
+
+            .b-content blockquote .b-round__content
+            {
+                font: 1.3em Arial;
+
+                padding: 10px 20px;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-content/b-content.css: end */ /**/
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-country/b-country.css: begin */ /**/
+            .b-country
+            {
+
+            }
+
+            .b-country__flag
+            {
+                margin-bottom: 0.2em;
+
+                display: block;
+                float: left;
+            }
+
+            .b-country__flag-img
+            {
+                border: 1px solid #000;
+            }
+
+            .b-country__name
+            {
+                display: block;
+                float: left;
+                clear: left;
+
+                text-decoration: underline;
+            }
+
+            .b-country__link
+            {
+                font: 1.1em Arial;
+
+                color: #008692;
+
+                cursor: pointer;
+            }
+
+            a.b-country__link:hover
+            {
+                color: #75bbc1;
+
+                cursor: pointer;
+
+                word-spacing: 0;
+            }
+
+            /* Задисабленная страна (begin) */ /**/
+                .b-country_disabled
+                {
+                    opacity: 0.3;
+                }
+            /* Задисабленная страна (end) */ /**/
+        /* ../../../media/psf/sites/sunberry/blocks/b-country/b-country.css: end */ /**/
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-country-list/b-country-list.css: begin */ /**/
+            .b-country-list__title
+            {
+                font: 4.5em Calibri, Myriad Pro, Arial;
+
+                margin-bottom: 0.3em;
+            }
+
+            /* Виды отпусков (begin) */ /**/
+                .b-country-list__vacation-types-list
+                {
+                    margin-bottom: 3em;
+                }
+
+                .b-country-list__vacation-type
+                {
+                    float: left;
+
+                    margin: 0 0.4em 0.5em 0;
+                }
+
+            /* Виды отпусков (end) */ /**/
+
+            /* Страны (begin) */ /**/
+                .b-country-list__country
+                {
+                    width: 20%;
+                    margin-bottom: 3em;
+
+                    float: left;
+                }
+            /* Страны (end) */ /**/
+        /* ../../../media/psf/sites/sunberry/blocks/b-country-list/b-country-list.css: end */ /**/
+
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-icq/b-icq.css: begin */ /**/
+            .b-icq__icon
+            {
+
+            }
+
+            .b-icq__status
+            {
+                vertical-align: bottom;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-icq/b-icq.css: end */ /**/
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-infoblock/b-infoblock.css: begin */ /**/
+            .b-infoblock
+            {
+                margin-bottom: 2em;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-infoblock/b-infoblock.css: end */ /**/
+
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-head/b-head.css: begin */ /**/
+            .b-head
+            {
+                position: relative;
+
+                margin-left: 320px;
+                height: 188px;
+            }
+
+            /* Логотип (begin) */ /**/
+                .b-head__logo
+                {
+                    position: absolute;
+                    top: 0;
+                    left: -320px;
+                }
+            /* Логотип (end) */ /**/
+
+            /* Контакты (begin) */ /**/
+                .b-head__contacts
+                {
+                    position: absolute;
+                    bottom: 45px;
+                    right: 0;
+
+                    width: 100%;
+
+                    border-collapse: collapse;
+                }
+
+                .b-head__contacts-item_middle
+                {
+                    text-align: center;
+                    padding: 0 5px;
+                }
+
+                .b-head__contacts-item_right
+                {
+                    text-align: right;
+                }
+
+                /* Телефон (begin) */ /**/
+                    .b-head__contacts .b-phone
+                    {
+                        font: 3em Arial;
+                    }
+                    .b-head__contacts .b-phone__code
+                    {
+                        font-size: 0.36em;
+
+                        margin-right: 0.3em;
+                    }
+                /* Телефон (end) */ /**/
+
+                /* ICQ (begin) */ /**/
+                    .b-head__contacts .b-icq
+                    {
+                        font: 1.3em Arial;
+                    }
+                /* ICQ (end) */ /**/
+
+            /* Контакты (end) */ /**/
+
+            /* Сегодня (begin) */ /**/
+                .b-head__today-word
+                {
+                    font: 1.3em Arial;
+
+                    color: #7f7f7f;
+                }
+                .b-head__today-date
+                {
+                    font: 1.6em Arial;
+                }
+            /* Сегодня (end) */ /**/
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-head/b-head.css: end */ /**/
+
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-layout/b-layout.css: begin */ /**/
+            .b-layout
+            {
+                position: relative;
+            }
+
+            .b-layout__left
+            {
+                float: left;
+                width: 250px;
+                position: relative;
+            }
+
+            .b-layout__right
+            {
+                overflow: hidden;
+            }
+
+            .b-layout__right_main .b-layout__right-inner
+            {
+                padding-left: 80px;
+                padding-right: 36px;
+                margin-right: -36px; /* Выносим немного край вправо, чтобы вместить стрелочку */ /**/
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-layout/b-layout.css: end */ /**/
+
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-menu/b-menu.css: begin */ /**/
+            .b-menu
+            {
+                margin-bottom: 40px;
+
+                background: #fff;
+            }
+
+            .b-menu__items
+            {
+                background: url(b-head/b-head.jpg) 0 -188px no-repeat;
+
+                width: 870px;
+                margin: 0 auto;
+
+                overflow: hidden;
+            }
+
+            .b-menu__item
+            {
+                float: left;
+
+                text-align: center;
+            }
+
+            .b-menu__link
+            {
+                font: 1.6em Arial;
+
+                margin: 9px 10px 8px;
+
+                display: -moz-inline-box;
+                display: inline-block;
+
+                color: #000;
+            }
+
+            a.b-menu__link:hover
+            {
+                color: #999;
+            }
+
+            .b-menu__item_active
+            {
+                overflow: hidden;
+            }
+
+            .b-menu__item_active .b-menu__link
+            {
+                position: relative;
+                z-index: 2;
+
+                color: #000;
+            }
+
+            .b-menu__background
+            {
+                width: 870px;
+                margin-right: -870px;
+
+                float: left;
+            }
+
+            /* Позиционирование background'а, зависит от количества пунктов меню (begin) */ /**/
+                .b-menu__item {width: 145px;} /* Ширина = 870px / Количество пунктов */ /**/
+                .b-menu__item_2 .b-menu__background {margin-left: -145px;}
+                .b-menu__item_3 .b-menu__background {margin-left: -290px;}
+                .b-menu__item_4 .b-menu__background {margin-left: -435px;}
+                .b-menu__item_5 .b-menu__background {margin-left: -580px;}
+                .b-menu__item_6 .b-menu__background {margin-left: -725px;}
+            /* Позиционирование background'а, зависит от количества пунктов меню (end) */ /**/
+
+            .b-menu__background .b-menu__link
+            {
+                visibility: hidden;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-menu/b-menu.css: end */ /**/
+
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-round/b-round.css: begin */ /**/
+            .b-round
+            {
+                position: relative;
+                zoom: 1;
+            }
+
+            .b-round__corner
+            {
+                position: absolute;
+
+                display: block;
+            }
+
+            .b-round__corner_t-r,
+            .b-round__corner_b-r
+            {
+                margin-left: 100%;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-round/b-round.css: end */ /**/
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-round/_info/b-round_info.css: begin */ /**/
+            /* Границы и содержимое (begin) */ /**/
+                .b-round_info .b-round__border,
+                .b-round_info .b-round__content
+                {
+                    background: rgba(255, 255, 255, 0.8);
+                }
+
+                .b-round_info .b-round__border
+                {
+                    height: 3px;
+                    margin: 0 3px;
+                }
+
+            /* Границы и содержимое (end) */ /**/
+
+            /* Уголки (begin) */ /**/
+                .b-round_info .b-round__corner
+                {
+                    width: 5px;
+                    height: 5px;
+
+                    background: url(b-round/_info/b-round_info.png) no-repeat;
+                }
+
+                .b-round_info .b-round__corner_t-l
+                {
+                    left: -2px;
+                    top: -2px;
+
+                    clip: rect(2px auto auto 2px);
+                }
+
+                .b-round_info .b-round__corner_t-r
+                {
+                    left: -3px;
+                    top: -2px;
+
+                    clip: rect(2px 3px auto auto);
+                }
+
+                .b-round_info .b-round__corner_b-l
+                {
+                    left: -2px;
+
+                    clip: rect(auto auto 3px 2px);
+                }
+
+                .b-round_info .b-round__corner_b-r
+                {
+                    left: -3px;
+                    clip: rect(auto 3px 3px auto);
+                }
+            /* Уголки (end) */ /**/
+        /* ../../../media/psf/sites/sunberry/blocks/b-round/_info/b-round_info.css: end */ /**/
+
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-text-shadow/b-text-shadow.css: begin */ /**/
+            .b-text-shadow
+            {
+                position: relative;
+            }
+
+            .b-text-shadow__main
+            {
+                position: relative;
+            }
+
+            .b-text-shadow__shadow
+            {
+                position: absolute;
+            }
+
+            .b-text-shadow_b .b-text-shadow__shadow
+            {
+                top: 1px;
+            }
+
+            .b-text-shadow_tl .b-text-shadow__shadow
+            {
+                top: -1px;
+                left: -1px;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-text-shadow/b-text-shadow.css: end */ /**/
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-tip/b-tip.css: begin */ /**/
+            .b-tip
+            {
+                padding: 10px 27px;
+            }
+
+            .b-tip__title
+            {
+                font: 1.6em Arial;
+            }
+
+            .b-tip__description
+            {
+                font: 1.3em Arial;
+
+                color: #807f7f;
+            }
+
+            .b-tip__link
+            {
+                color: #008692;
+            }
+
+            a.b-tip__link:hover
+            {
+                color: #75bbc1;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-tip/b-tip.css: end */ /**/
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-tour-list/b-tour-list.css: begin */ /**/
+            .b-tour-list
+            {
+                margin-bottom: 0;
+                padding: 10px 15px 0;
+            }
+
+            .b-tour-list__item
+            {
+                padding: 0 0 10px;
+            }
+
+
+            .b-tour-list__title
+            {
+                margin: 10px 0 10px 12px;
+            }
+            .b-tour-list__name
+            {
+                font: 2.5em Calibri, Myriad Pro, Arial;
+
+                margin-right: 0.25em;
+
+                display: inline;
+            }
+
+            .b-tour-list__all-link
+            {
+                font: 1.1em Arial;
+
+                color: #008692;
+            }
+
+            a.b-tour-list__all-link:hover
+            {
+                color: #75bbc1;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-tour-list/b-tour-list.css: end */ /**/
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-tour-small/b-tour-small.css: begin */ /**/
+            .b-tour-small
+            {
+                position: relative;
+                padding-left: 72px;
+            }
+
+            .b-tour-small__title
+            {
+                font: 1.6em Arial;
+
+                padding-top: 5px;
+            }
+
+            .b-tour-small__name
+            {
+                color: #008692;
+                margin-right: 0.25em;
+            }
+
+            a.b-tour-small__name:hover
+            {
+                color: #75bbc1;
+            }
+
+            .b-tour-small__image
+            {
+                float: left;
+                margin: 0 -100% 0 -72px;
+            }
+
+            .b-tour-small__description
+            {
+                font: 1.3em/1.4 Arial;
+
+                color: #807f7f;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-tour-small/b-tour-small.css: end */ /**/
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-tour-small-image/b-tour-small-image.css: begin */ /**/
+            .b-tour-small-image
+            {
+                width: 59px;
+                height: 60px;
+
+                display: block;
+
+                border: 2px solid #fff;
+                border-radius: 30px; /* Gecko (Firefox 3.6+) */
+                -moz-border-radius: 30px; /* WebKit (Safari/Chrome) */
+                -webkit-border-radius: 30px;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-tour-small-image/b-tour-small-image.css: end */ /**/
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-tour-where/b-tour-where.css: begin */ /**/
+            .b-tour-where__title
+            {
+                font: 4.5em Calibri, Myriad Pro, Arial;
+            }
+
+            .b-tour-where__title .b-text-shadow__shadow
+            {
+                color: #bbb;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-tour-where/b-tour-where.css: end */ /**/
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-tour-where-months/b-tour-where-months.css: begin */ /**/
+            .b-tour-where-months
+            {
+                position: relative;
+            }
+
+            .b-tour-where-months__wrapper
+            {
+                padding: 0 10px;
+            }
+            .b-tour-where-months__wrapper-with-arrows
+            {
+                position: relative;
+                overflow: hidden;
+            }
+
+            .b-tour-where-months__wrapper
+            {
+                overflow: hidden;
+                width: 100%;
+            }
+
+            .b-tour-where-months__list
+            {
+                width: 3000px;
+            }
+
+
+            .b-tour-where-months__item
+            {
+                float: left;
+            }
+
+            /* Просто месяц (begin) */ /**/
+                .b-tour-where-months__month
+                {
+                    font: 1.5em Calibri, Myriad Pro, Arial;
+
+                    padding: 10px 16px 10px 15px;
+
+                    background: rgba(87,87,87,0.35);
+                    border-left: 1px solid #2a3a50;
+                }
+
+                .b-tour-where-months__item_first .b-tour-where-months__month
+                {
+                    border-left: 0;
+                }
+
+                .b-tour-where-months__month .b-text-shadow
+                {
+                    display: block;
+
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+                .b-tour-where-months__month .b-text-shadow__shadow
+                {
+                    color: #38424d;
+                }
+            /* Просто месяц (end) */ /**/
+
+
+            /* Выбранный месяц (begin) */ /**/
+                .b-tour-where-months__month_selected
+                {
+                    padding: 10px 15px;
+
+                    background: url(b-tour-where-months/b-tour-where-months_selected.gif) #fff repeat-x;
+                    border-right: 1px solid #eaeaea;
+                }
+
+                .b-tour-where-months__month_selected .b-text-shadow
+                {
+                    color: #000;
+                }
+
+                .b-tour-where-months__item_last .b-tour-where-months__month_selected
+                {
+                    border-right: 0;
+                }
+
+                .b-tour-where-months__month_selected .b-text-shadow__shadow
+                {
+                    color: #bbb;
+                }
+            /* Выбранный месяц (end) */ /**/
+
+            /* Управление положением всей доски (begin) */ /**/
+                .b-tour-where-months__control
+                {
+                    position: absolute;
+                    top: 50%;
+
+                    margin-top: -14px;
+                    width: 20px;
+                    height: 28px;
+
+                    cursor: pointer;
+                }
+
+                .b-tour-where-months__control_left
+                {
+                    left: -30px;
+                    background: url(b-tour-where-months/b-tour-where-months__control_left.png);
+                }
+
+                .b-tour-where-months__control_right
+                {
+                    right: -30px;
+                    background: url(b-tour-where-months/b-tour-where-months__control_right.png);
+                }
+            /* Управление положением всей доски (end) */ /**/
+
+            /* Стрелочка интервала (begin) */ /**/
+                .b-tour-where-months__arrow
+                {
+                    position: absolute;
+
+                    width: 19px;
+                    height: 12px;
+
+                    display: block;
+
+                    cursor: pointer;
+                    background: url(b-tour-where-months/b-tour-where-months__arrow.png) no-repeat;
+                }
+
+                .b-tour-where-months__arrow_from
+                {
+                    z-index: 1;
+                }
+
+                .b-tour-where-months__arrow_to
+                {
+                    z-index: 2;
+                }
+            /* Стрелочка интервала (end) */ /**/
+        /* ../../../media/psf/sites/sunberry/blocks/b-tour-where-months/b-tour-where-months.css: end */ /**/
+
+
+        /* ../../../media/psf/sites/sunberry/blocks/b-vacation-type-button/b-vacation-type-button.css: begin */ /**/
+            .b-vacation-type-button
+            {
+                font: 1.6em/1.4 Arial;
+
+                padding: 0.1em 1em;
+
+                display: -moz-inline-box;
+                display: inline-block;
+
+                text-decoration: none;
+                white-space: nowrap;
+
+                color: #000;
+                border: 2px solid #d83c73;
+            }
+
+            .b-vacation-type-button_checked
+            {
+                padding: 0.25em 1em;
+
+                border: 0;
+                color: #fff;
+                background: #cc3067 url(b-vacation-type-button/b-vacation-type-button_selected.gif) repeat-x;
+                background: -moz-linear-gradient(-90deg, #ea4e85 0, #cc3067 100%);
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ea4e85), color-stop(1, #cc3067));
+
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/b-vacation-type-button/b-vacation-type-button.css: end */ /**/
+
+
+        /* Скриптостили */
+        /* ../../../media/psf/sites/sunberry/blocks/js-hidden/js-hidden.css: begin */ /**/
+            /* Элемент, скрытый при отключенных скриптах */ /**/
+
+            #nojs .js-hidden
+            {
+                display: none;
+            }
+        /* ../../../media/psf/sites/sunberry/blocks/js-hidden/js-hidden.css: end */ /**/
+    /* ../../../media/psf/sites/sunberry/blocks/imports.css: end */ /**/
+
+
+    /* ../../../media/psf/sites/sunberry/blocks/g-png24.ie.css: begin */ /**/
+        * html .g-png24 {
+        	behaviour:expression(
+        		(!this.fixedPNG?
+        			(function(el){
+        				var fixSrc = "", sizingMethod = "crop";
+        				if (el.tagName.toLowerCase() == "img") {
+        					fixSrc = el.src;
+        					sizingMethod = "image";
+
+        					el.style.width = 1;
+        					el.style.height = 1;
+        					el.src = "";
+        				}
+        				else {
+        					var tmpImg = new Image();
+        					tmpImg.src = el.currentStyle.backgroundImage.split('\"')[1];
+        					if (parseInt(tmpImg.width) == 1 || parseInt(tmpImg.height) == 1 || el.className.indexOf('g-png-24__scaled') > -1) {
+        						sizingMethod = "scale";
+        					}
+
+        					fixSrc = el.currentStyle.backgroundImage.split('\"')[1];
+        					el.className += " g-png-fixed";
+        				}
+        				el.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + fixSrc + ", sizingMethod='" + sizingMethod + "')";
+        				el.fixedPNG = true;
+        			})(this):'')
+        		);
+        	}
+
+        * html .g-png-fixed {
+        	background-image: none !important;
+        }
+    /* ../../../media/psf/sites/sunberry/blocks/g-png24.ie.css: end */ /**/
+
+    /* ../../../media/psf/sites/sunberry/blocks/g-line/g-line.ie.css: begin */ /**/
+        .g-line
+        {
+            zoom: 1;
+            _height: 0;
+        }
+    /* ../../../media/psf/sites/sunberry/blocks/g-line/g-line.ie.css: end */ /**/
+
+
+    /* ../../../media/psf/sites/sunberry/blocks/b-country/b-country.ie.css: begin */ /**/
+        /* Задисабленная страна (begin) */ /**/
+            .b-country_disabled
+            {
+                filter: progid:DXImageTransform.Microsoft.Alpha(opacity = 30);
+            }
+            .b-country_disabled .b-country__name
+            {
+                filter:progid:DXImageTransform.Microsoft.Chroma(color=#a3dafd);
+                zoom:1;
+                background-color:#a3dafd;
+            }
+        /* Задисабленная страна (end) */ /**/
+    /* ../../../media/psf/sites/sunberry/blocks/b-country/b-country.ie.css: end */ /**/
+
+
+    /* ../../../media/psf/sites/sunberry/blocks/b-layout/b-layout.ie.css: begin */ /**/
+        .b-layout__right
+        {
+            zoom: 1;
+        }
+    /* ../../../media/psf/sites/sunberry/blocks/b-layout/b-layout.ie.css: end */ /**/
+
+
+    /* ../../../media/psf/sites/sunberry/blocks/b-menu/b-menu.ie.css: begin */ /**/
+        .b-menu
+        {
+            zoom: 1;
+        }
+
+        .b-menu__item_active .b-menu__link
+        {
+            margin: 0;
+            padding: 9px 10px 8px;
+
+            display: block;
+        }
+    /* ../../../media/psf/sites/sunberry/blocks/b-menu/b-menu.ie.css: end */ /**/
+
+
+    /* ../../../media/psf/sites/sunberry/blocks/b-round/_info/b-round_info.ie.css: begin */ /**/
+        .b-round_info .b-round__border,
+        .b-round_info .b-round__content
+        {
+            background: #f1f1f1;
+            zoom: 1;
+        }
+
+
+        .b-round_info .b-round__corner
+        {
+            background: url(b-round/_info/b-round_info.ie.png) no-repeat;
+        }
+
+        .b-round_info .b-round__corner_t-r,
+        .b-round_info .b-round__corner_b-r
+        {
+            left: 3px;
+        }
+    /* ../../../media/psf/sites/sunberry/blocks/b-round/_info/b-round_info.ie.css: end */ /**/
+
+
+    /* ../../../media/psf/sites/sunberry/blocks/b-tour-small/b-tour-small.ie.css: begin */ /**/
+        .b-tour-small
+        {
+            height: 65px;
+        }
+
+        .b-tour-small__title
+        {
+            zoom: 1;
+        }
+
+        .b-tour-small__image
+        {
+            cursor: pointer;
+            margin-bottom: -100%;
+        }
+    /* ../../../media/psf/sites/sunberry/blocks/b-tour-small/b-tour-small.ie.css: end */ /**/
+
+    /* ../../../media/psf/sites/sunberry/blocks/b-tour-where-months/b-tour-where-months.ie.css: begin */ /**/
+        .b-tour-where-months__wrapper
+        {
+            position: relative;
+        }
+
+        .b-tour-where-months__month
+        {
+            float: left;
+
+            filter: progid:DXImageTransform.Microsoft.gradient(enabled = 'true', startColorstr =#59575757, endColorstr =#59575757, GradientType = 0);
+            zoom: 1;
+        }
+
+        .b-tour-where-months__month_selected
+        {
+            filter: none;
+        }
+    /* ../../../media/psf/sites/sunberry/blocks/b-tour-where-months/b-tour-where-months.ie.css: end */ /**/
+
+
+    /* ../../../media/psf/sites/sunberry/blocks/b-vacation-type-button/b-vacation-type-button.ie.css: begin */ /**/
+        .b-vacation-type-button
+        {
+            display: inline;
+        }
+    /* ../../../media/psf/sites/sunberry/blocks/b-vacation-type-button/b-vacation-type-button.ie.css: end */ /**/
+/* ../../../media/psf/sites/sunberry/blocks/imports.ie.css: end */ /**/

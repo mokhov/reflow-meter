@@ -1,0 +1,249 @@
+/* Заголовки (begin) */ /**/
+    .b-content h1
+    {
+        font: 4.5em Calibri, Myriad Pro, Arial;
+
+        margin-bottom: 0.1em;
+    }
+
+    .b-content h2
+    {
+        font: 3.5em Calibri, Myriad Pro, Arial;
+
+        clear: both;
+
+        margin: .5em 0 0.1em;
+    }
+
+    .b-content h3
+    {
+        font: 2.4em Calibri, Myriad Pro, Arial;
+
+        clear: both;
+
+        margin: 1em 0 .5em;
+    }
+/* Заголовки (end) */ /**/
+
+/* Абзацы (begin) */ /**/
+    .b-content p
+    {
+        font: 1.3em/1.4 Arial;
+
+        margin-bottom: 0.5em;
+    }
+/* Абзацы (end) */ /**/
+
+/* Увеличиваемая картинка (begin) */ /**/
+    .b-content__image
+    {
+        float: left;
+        margin: 0 0 20px 0;
+    }
+
+    .b-content__image-description
+    {
+        font: 1.1em Arial;
+
+        color: #4f6a7e;
+    }
+
+    .b-content__image-link
+    {
+        position: relative;
+
+        display: block;
+        cursor: pointer;
+    }
+
+    .b-content__image-link_base
+    {
+        margin: 10px 0;
+    }
+    .b-content__image-link_round
+    {
+        width: 120px;
+        height: 120px;
+        margin: 10px 30px 5px 0;
+        
+        border: 2px solid #fff;
+    }
+
+    .b-content__image-zoomer
+    {
+        position: absolute;
+        top: 102px;
+        left: 102px;
+        z-index: 1;
+        
+        width: 26px;
+        height: 26px;
+
+        display: block;
+
+        background: url(b-content__image-zoomer.png) no-repeat;
+    }
+/* Увеличиваемая картинка (end) */ /**/
+
+/* Списки (begin) */ /**/
+    .b-content ol
+    {
+        list-style: decimal;
+
+        margin-left: 20px;
+
+        color: #e1004f;
+    }
+    .b-content ol li,
+    .b-content ul li
+    {
+        font: 1.3em Arial;
+
+        margin-bottom: 0.5em;
+    }
+
+    .b-content ol li p,
+    .b-content ul li p
+    {
+        font-size: 1em;
+
+        margin-bottom: 0.3em;
+
+        color: #000;
+    }
+
+    .b-content ul li
+    {
+        padding-left: 20px;
+
+        background: url(b-content__ul-marker.gif) 0 8px no-repeat;
+    }
+
+/* Списки (end) */ /**/
+
+
+/* Таблицы (begin) */ /**/
+    .b-content table
+    {
+        width: 100%;
+        margin: 1em 0;
+        
+        border-collapse: collapse;
+    }
+
+    .b-content__table-thead
+    {
+        background: #c30548 url(b-content__table-thead.gif) 0 -3px repeat-x;
+    }
+
+    .b-content .b-content__table-cell_first
+    {
+        text-align: left;
+    }
+
+    .b-content th,
+    .b-content td
+    {
+        font: 1.3em Arial;
+
+        text-align: right;
+    }
+
+    .b-content th
+    {
+        font-weight: bold;
+
+        padding: 5px 20px;
+
+        color: #fff;
+    }
+
+    .b-content td
+    {
+        padding: 10px 20px 5px;
+
+        border-bottom: 1px solid #d81a5d;
+    }
+
+    /* Уголки у заголовка таблицы (begin) */ /**/
+        .b-content__table-thead-corners-wrapper
+        {
+            padding: 0 !important;
+        }
+
+        .b-content__table-thead-corners
+        {
+            position: relative;
+
+            height: 3px;
+            margin: 0 3px;
+
+            background: #c30548 url(b-content__table-thead.gif) 0 0 repeat-x;
+        }
+        .b-content__table-thead-corners_b
+        {
+            background: #c30548;
+        }
+
+        .b-content__table-thead-corner
+        {
+            position: relative;
+
+            width: 3px;
+            height: 3px;
+
+            overflow: hidden;
+        }
+
+        .b-content__table-thead-corner div
+        {
+            position: relative;
+            
+            width: 5px;
+            height: 6px;
+            
+            background: url(b-content__table-thead-corner.png) no-repeat;    
+        }
+
+        .b-content__table-thead-corner_t-l,
+        .b-content__table-thead-corner_b-l
+        {
+            left: -3px;
+            float: left;
+        }
+        .b-content__table-thead-corner_t-r,
+        .b-content__table-thead-corner_b-r
+        {
+            float: right;
+            right: -3px;
+        }
+        .b-content__table-thead-corner_t-r div
+        {
+            left: -2px;
+        }
+
+        .b-content__table-thead-corner_b-l div
+        {
+            top: -3px;
+        }
+
+        .b-content__table-thead-corner_b-r div
+        {
+            top: -3px;
+            left: -2px;
+        }
+    /* Уголки у заголовка таблицы (end) */ /**/
+/* Таблицы (end) */ /**/
+
+
+.b-content blockquote
+{
+    margin: 10px 0;
+}
+
+.b-content blockquote .b-round__content
+{
+    font: 1.3em Arial;
+
+    padding: 10px 20px;
+}

@@ -1,0 +1,76 @@
+.b-input
+{
+    position: relative;
+    z-index: 1;
+}
+
+.b-input__wrapper-input
+{
+    padding: 4px 8px 0 8px;
+}
+.b-input__input
+{
+    font: 1.3em Arial;
+    
+    width: 100%;
+
+    color: #7f7f7f;
+    border: 0;
+    background: none;
+}
+
+.b-input__wrapper
+{
+    position: relative;
+
+    overflow: hidden;
+}
+
+.b-input__border
+{
+    position: absolute;
+    z-index: -1;
+
+    display: block;
+
+    background: url(b-input.png) no-repeat;
+}
+
+.b-input__border_tl
+{
+    left: -4px;
+    top: -7px;
+
+    width: 100%;
+    height: 1000px;
+}
+
+.b-input__border_tr
+{
+    margin-left: 100%;
+    left: -4px;
+    top: -7px;
+
+    width: 4px;
+    height: 1000px;
+}
+
+
+.b-input__border_bl
+{
+    margin-left: -4px;
+
+    width: 100%;
+    height: 7px;
+
+    clip: rect(auto auto auto 4px);
+}
+
+.b-input__border_br
+{
+    margin-left: 100%;
+    left: -4px;
+
+    width: 4px;
+    height: 7px;
+}

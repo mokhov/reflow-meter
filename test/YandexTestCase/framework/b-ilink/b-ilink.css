@@ -1,0 +1,68 @@
+.b-ilink
+{
+	position: relative;
+	text-decoration: none;
+	margin-left: -10px; /* Палка о двух концах, left: -10px не работает в ИЕ8 но работае в ФФ2 и 3.0, margin-left наоборот. Хачить? */
+	padding-left: 10px;
+	padding-right: 20px;
+	zoom: 1;
+}
+
+.b-ilink:hover
+{
+	word-spacing: 0;
+}
+.b-ilink:hover .text
+{
+	color: white;
+	background: #1657d3;
+}
+
+.b-ilink .text
+{
+	padding: 1px 6px 2px;
+	cursor: hand;
+}
+
+/* Здесь не используется абсолютное позиционирование из-за 9-й оперы, в ней иначе возникает огромный скролл */
+.b-ilink .icon
+{
+	background: url(b-ilink-icons-sprite.jpg) no-repeat;
+	display: block;
+	float: left;
+	position: relative;
+	margin-right: -100%;
+	margin-top: 1px;
+	cursor: hand;
+}
+
+.b-ilink_search .icon
+{
+	left: -16px;
+	width: 8px; height: 14px;
+}
+.b-ilink_mail .icon
+{
+	left: -20px;
+	width: 16px; height: 14px;
+	background-position: -8px 0;
+}
+.b-ilink_weather .icon
+{
+	left: -20px;
+	width: 16px; height: 14px;
+	background-position: -24px 0;
+}
+.b-ilink_blogs .icon
+{
+	left: -20px;
+	width: 16px; height: 14px;
+	background-position: -40px 0;
+}
+.b-ilink_calendar .icon
+{
+	left: -20px;
+	margin-top: 1px;
+	width: 16px; height: 16px;
+	background-position: -56px 0;
+}

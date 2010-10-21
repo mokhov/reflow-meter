@@ -1,0 +1,36 @@
+.b-popular__control
+{
+	position: absolute;
+	top: 50%;
+	
+	height: 41px;
+	width: 40px;
+	margin-top: -41px;
+	
+	cursor: pointer;
+	background: url(b-popular__control.png) no-repeat;
+}
+
+.b-popular__control_prev
+{
+	left: -65px;
+}
+.b-popular__control_prev:hover,
+.b-popular__control_prev_hover
+{
+	background-position: 0% 100%;
+}
+
+.b-popular__control_next
+{
+	left: 25px;
+	
+	margin-left: 100%;
+	
+	background-position: 100% 0;
+}
+.b-popular__control_next:hover,
+.b-popular__control_next_hover
+{
+    background-position: 100% 100%;
+}

@@ -1,0 +1,17 @@
+.b-tour-where-months__wrapper
+{
+    position: relative;
+}
+
+.b-tour-where-months__month
+{
+    float: left;
+
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = 'true', startColorstr =#59575757, endColorstr =#59575757, GradientType = 0);
+    zoom: 1;
+}
+
+.b-tour-where-months__month_selected
+{
+    filter: none;
+}

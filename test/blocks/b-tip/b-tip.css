@@ -1,0 +1,26 @@
+.b-tip
+{
+    padding: 10px 27px;
+}
+
+.b-tip__title
+{
+    font: 1.6em Arial;
+}
+
+.b-tip__description
+{
+    font: 1.3em Arial;
+    
+    color: #807f7f;
+}
+
+.b-tip__link
+{
+    color: #008692;
+}
+
+a.b-tip__link:hover
+{
+    color: #75bbc1;
+}

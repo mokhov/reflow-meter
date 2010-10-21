@@ -1,0 +1,67 @@
+.b-popular__item
+{
+	position: relative;
+	
+	padding: 95px 10px 0 0;
+}
+
+.b-popular__item-image-wrapper
+{
+	position: absolute;
+	top: 0;
+	height: 90px;
+	
+	margin-top: -95px;
+}
+
+.b-popular__item-image
+{
+	position: absolute;
+	bottom: 0;
+}
+
+.b-popular__item-title-wrapper
+{
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.b-popular__item-title
+{
+	font: 1.3em/1.2 Arial;
+	
+	color: #0183cf;
+	text-decoration: none;
+	border-bottom: 1px solid #bfe0f3;
+}
+
+.b-popular__item-title:hover
+{
+	color: #5da6d1;
+}
+
+.b-popular__item-price-wrapper
+{
+	position: relative;
+	left: -3px;
+	
+	overflow: hidden;
+	
+	zoom: 1;
+}
+
+.b-popular__item-price
+{	
+	float: left;
+	
+    background: #787c7e;
+}
+
+.b-popular__item-price-content
+{
+	font: 1.3em Arial;
+	
+    padding: 0 3px;
+	
+	color: #fff;
+}

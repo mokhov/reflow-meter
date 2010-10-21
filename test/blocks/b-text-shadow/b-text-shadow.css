@@ -1,0 +1,25 @@
+.b-text-shadow
+{
+    position: relative;
+}
+
+.b-text-shadow__main
+{
+    position: relative;
+}
+
+.b-text-shadow__shadow
+{
+    position: absolute;
+}
+
+.b-text-shadow_b .b-text-shadow__shadow
+{
+    top: 1px;
+}
+
+.b-text-shadow_tl .b-text-shadow__shadow
+{
+    top: -1px;
+    left: -1px;
+}

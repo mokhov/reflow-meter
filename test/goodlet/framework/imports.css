@@ -1,0 +1,30 @@
+@import url(reset.css);
+
+/* Двухколоночная разметка */ /**/
+@import url(l-cols/l-cols.css);
+@import url(l-page/l-page.css);
+
+@import url(b-head/b-head.css);
+@import url(b-search/b-search.css);
+@import url(b-userlink/b-userlink.css);
+@import url(b-categories/b-categories.css);
+@import url(b-round/b-round.css);
+@import url(b-popular/b-popular.css);
+@import url(b-sep/b-sep.css);
+
+
+/* Отладочные стили (НЕ ВКЛЮЧАТЬ В ПРОДАКШН) (начало) */ /**/
+.g-block
+{
+	margin: 0 100px;
+	padding: 0 0 2em;
+	
+	background: #eee;
+}
+
+.g-block-title
+{
+	font: 2em Arial;
+	margin: 0 0 1em;
+}
+/* Отладочные стили (НЕ ВКЛЮЧАТЬ В ПРОДАКШН) (конец) */ /**/

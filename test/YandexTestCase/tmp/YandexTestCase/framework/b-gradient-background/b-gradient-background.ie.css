@@ -1,0 +1,19 @@
+.b-gradient-background
+{
+	filter:progid:DXImageTransform.Microsoft.gradient (startColorstr=#fffec610, endColorstr=#ffff7800, GradientType=1);
+	zoom: 1;
+}
+.b-gradient-background_gradient-image
+{
+	display: none;
+}
+/*.b-gradient-background_gradient-image
+{
+	behavior: expression((!this.movedBg ? (function(el){
+		var eSrc = el.src;
+		el.style.display = "none";
+		el.parentNode.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + eSrc + ", sizingMethod='scale')";
+		
+		el.movedBg = true;
+	})(this) :''));
+}*/

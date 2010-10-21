@@ -1,0 +1,36 @@
+@import url(hint/b-search__hint.css);
+@import url(input/b-search__input.css);
+@import url(left-corner/b-search__left-corner.css);
+@import url(submit/b-search__submit.css);
+@import url(_head/b-search_head.css);
+
+.b-search
+{
+	position: relative;
+	left: -16px;
+	
+	height: 37px;
+	padding: 0 39px 0 16px;
+}
+
+.b-search .b-search__input,
+.b-search .b-search__left-corner,
+.b-search .b-search__submit
+{
+	background: url(b-search.jpg);
+}
+.b-search .b-search__input
+{
+	background-position: 0 -37px;
+	background-repeat: repeat-x;
+}
+.b-search .b-search__left-corner
+{
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+.b-search .b-search__submit
+{
+    background-position: -16px 0;
+    background-repeat: no-repeat;
+}

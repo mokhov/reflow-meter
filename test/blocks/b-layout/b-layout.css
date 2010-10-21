@@ -1,0 +1,23 @@
+.b-layout
+{
+    position: relative;
+}
+
+.b-layout__left
+{
+    float: left;
+    width: 250px;
+    position: relative;
+}
+
+.b-layout__right
+{
+    overflow: hidden;
+}
+
+.b-layout__right_main .b-layout__right-inner
+{
+    padding-left: 80px;
+    padding-right: 36px;
+    margin-right: -36px; /* Выносим немного край вправо, чтобы вместить стрелочку */ /**/
+}

@@ -1,0 +1,28 @@
+.b-categories__category
+{
+	line-height: 2em;
+	
+	margin-right: 4px;
+	
+	display: inline;
+	
+	white-space: nowrap;
+}
+.b-categories__category-link
+{
+	font: 1.3em Arial;
+	
+	margin-right: 2px;
+	
+	color: #0183cf;
+}
+.b-categories__category-link:hover
+{
+	color: #5da6d1;
+}
+.b-categories__category-quantity
+{
+	font: 1em Arial;
+	
+	color: #8f8f8f;
+}

@@ -1,0 +1,20 @@
+.b-head__user-menu
+{
+	margin-top: 2.46em; /* Отбивка чтобы текст был на уровне инпута = margin-bottom + font-size .b-head__slogan */ /**/
+	padding-top: 0.8em;
+	
+	line-height: 2em;
+}
+
+.b-head__user-menu-logout
+{
+	font: 1.3em Arial;
+	
+	color: #808080;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+.b-head__user-menu-logout:hover
+{
+	color: #666;
+}

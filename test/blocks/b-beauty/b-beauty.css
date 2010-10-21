@@ -1,0 +1,17 @@
+.b-beauty
+{
+    position: relative;
+    z-index: 1;
+}
+
+.b-beauty_main,
+.b-beauty_main .b-menu__background    
+{
+    background: url(b-beauty_main.jpg) 50% 0 no-repeat;
+}
+
+.b-beauty_bubbles,
+.b-beauty_bubbles .b-menu__background
+{
+    background: url(b-beauty_bubbles.jpg) 50% 0 no-repeat;
+}

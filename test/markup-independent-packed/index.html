@@ -1,0 +1,263 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+	<title>УБТ - Главная</title>
+	<link rel="stylesheet" href="css/layout.css" type="text/css" />
+	
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" href="css/layout.ie.css" type="text/css" />
+	<![endif]-->
+	
+	<!--
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.photo-changer.js"></script>
+		<script type="text/javascript" src="js/jquery.actions.js"></script>-->
+	
+    <script type="text/javascript" src="../../js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../../js/reflow-meter.js"></script>
+	
+	<script>
+		var base_url = "/";
+	</script>
+</head>
+<body>
+	<div class="l-bottom-footer">
+		<div class="l-top">
+			<!-- Хедер: логотип, обязательное меню и телефоны компании -->
+			<div class="header b-header">
+				<div class="extra">
+					<!-- Первому элементу меню нужно присвоить класс first-child -->
+					<ul class="required-navigation">
+						<li class="first-child">
+							<a href="">
+								<img src="img/home.gif" alt="на главную" />на главную
+							</a>
+						</li>
+						<li><a href="" class="sitemap"><img src="img/sitemap.gif" alt="карта сайта" />карта сайта</a></li>
+						<li><a href="" class="contacts"><img src="img/mail.gif" alt="контакты" />контакты</a></li>
+					</ul>
+					<p class="phone"><span class="code">(3435)</span>377-407</p>
+					<p class="phone"><span class="code">(3435)</span>377-408</p>
+				</div>
+				<div class="logo">
+					<img src="img/ubt-logo.gif" width="210" height="89" alt="УБТ-Уралвагонзавод" />
+					<p>ЗАО &laquo;Уральская большегрузная техника-Уралвагонзавод&raquo; &mdash; крупнейшее предприятие в России по продаже большегрузной техники</p>
+				</div>
+			</div>
+			
+			<!-- Основное меню -->
+			<div class="l-menu-wrapper">
+				<!-- Первому элементу меню нужно присвоить класс first-child -->
+				<ul class="main-menu b-main-menu">
+					<li class="first-child"><a href="">О компании</a></li>
+					<li class="active"><span><a href="">Департамент продаж</a></span></li>
+					<li>
+						<a href="">Имущество в аренду</a>
+						<div class="sub">
+							<ul>
+								<li class="first-child"><a href="">Подпункт 1</a></li>
+								<li><a href="">Подпункт 2</a></li>
+								<li><a href="">Подпункт 3</a></li>
+							</ul>
+							<i class="sub-tr"></i>
+							<i class="sub-bl"></i>
+							<i class="sub-br"></i>
+						</div>
+					</li>
+					<li>
+						<a href="">Нефтепродукты</a>
+						
+						<div class="sub">
+							<ul>
+								<li class="first-child"><a href="">Газы</a></li>
+								<li><a href="">Руда</a></li>
+							</ul>
+							<i class="sub-tr"></i>
+							<i class="sub-bl"></i>
+							<i class="sub-br"></i>
+						</div>
+					</li>
+					<li><a href="">Оконное производство</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- Блок со сменными фотографиями -->
+		<div class="b-photo-changer g-line">
+			<div class="l-wrapper-changer">
+				<div class="l-wrapper-photo">
+					<div class="l-wrapper-photo-background">
+						<div class="l-wrapper photo-container">
+							<ul>
+								<li>
+									<div class="l-item-wrapper">
+										<map name="vag-map">
+											<area shape="circle" coords="215, 109, 180" href="#" class="b-tip-el" rel="vag1"/>
+											<area shape="circle" coords="615, 109, 210" href="#" class="b-tip-el" rel="vag2"/>
+										</map>
+										<img src="img/vagons.png"  usemap="#vag-map"/>
+										<div class="b-tip" id="vag1">
+											<div class="i">
+												вагон
+												<i><a href="">ЭО-4126</a></i>
+											</div>
+										</div>
+										<div class="b-tip" id="vag2">
+											<div class="i">
+												вагон2
+												<i><a href="">ЭО-4126</a></i>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="l-item-wrapper">
+										<map name="exc-map">
+											<area shape="circle" coords="265, 209, 90" href="#" class="b-tip-el" rel="exc"/>
+											<area shape="circle" coords="465, 209, 110" href="#" class="b-tip-el" rel="exc2"/>
+											<area shape="circle" coords="685, 259, 130" href="#" class="b-tip-el" rel="exc3"/>
+										</map>
+										<img src="img/exc.png" class="mapped" usemap="#exc-map" width="811" height="391" />
+										<div class="b-tip" id="exc">
+											<div class="i">
+												модель
+												<i><a href="">ЭО-4126</a></i>
+											</div>
+										</div>
+										<div class="b-tip" id="exc2">
+											<div class="i">
+												не модель
+												<i><a href="">ЭО-4126</a></i>
+											</div>
+										</div>
+										<div class="b-tip" id="exc3">
+											<div class="i">
+												выплывашко
+												<i><a href="">ЭО-4126</a></i>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="l-item-wrapper">
+										<img src="img/exc.png" class="mapped" usemap="#exc-map" width="811" height="391" />
+									</div>
+								</li>
+								<li>
+									<div class="l-item-wrapper">
+										<img src="img/exc.png" class="mapped" usemap="#exc-map" width="811" height="391" />
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span class="prev-button"><img src="css/prev.png" /></span>
+						<span class="next-button"><img src="css/next.png" /></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ie-clear-after-photo"></div>
+		
+		<!-- Основное содержимое -->
+		<div class="content h-col-fixed-left h-main-content g-line">
+			<div class="slider b-slider slider-closed">
+					<div class="i">
+					<i class="slider-tr"></i>
+					<i class="slider-br"></i>
+					<ul>
+						<li><a href="">Имущество в аренду</a></li>
+						<li><a href="">База отдыха «Анапа»</a></li>
+						<li><a href="">Кафе «Камелот»</a></li>
+						<li><a href="">Кондиционеры</a></li>
+					</ul>
+					<span class="open-close"><span class="cursor"></span></span>
+				</div>
+			</div>
+			<div class="max-width">
+				<div class="h-left">
+					<ul class="b-banners">
+						<li><img src="tmp/banner.gif" /></li>
+						<li><img src="tmp/banner.gif" /></li>
+						<li><img src="tmp/banner.gif" /></li>
+					</ul>
+					<div class="b-contacts">
+						<h3>Контакты</h3>
+						<dl>
+							<dt>Адрес:</dt>
+							<dd>
+								622018, Россия, Свердловская обл.,<br/>
+								г. Нижний Тагил, ул. Юности, 10
+							</dd>
+						</dl>
+						<dl>
+							<dt>Тел/факс:</dt>
+							<dd>
+								(3435) 377-407<br/>
+								(3435) 377-408
+							</dd>
+						</dl>
+						<p>e-mail: <a href="mailto:ubt@ubtuvz.ru">ubt@ubtuvz.ru</a></p>
+					</div>
+				</div>
+				<div class="h-right">
+					<div class="b-content b-content_main">
+						<h1>О компании</h1>
+						<p>
+							ЗАО «Уральская большегрузная техника –Уралвагонзавод» (ЗАО «УБТ-УВЗ») - дочернее 
+							предприятие ОАО «Научно-производственной корпорации Уралвагонзавод» уникального 
+							многоотраслевого машиностроительного комплекса, выпускающего около 100 наименований 
+							продукции: цельнометаллические полувагоны, специализированные вагоны, железнодорожные 
+							цистерны, лучшие в мире танки. 
+						</p>
+						
+						<p>
+							ЗАО «УБТ-Уралвагонзавод» образовалось в 2002 году и является крупнейшим поставщиком в 
+							России изделий железнодорожного состава, реализует  дорожно-строительную технику 
+							ОАО «НПК Уралвагонзавод», осуществляет оптовые поставки ГСМ.
+						</p>
+						<p>
+							География наших партнёрских связей включает в себя всю территорию Российской федерации 
+							от Калининграда до Хабаровска, Украину и Казахстан, страны Прибалтики.
+							Коллектив высокопрофессиональных менеджеров поможет сделать ваш бизнес успешным.
+						</p>
+						
+						<div class="b-top-sales">
+							<h1 class="highlighted">TOP продаж</h1>
+							<ul>
+								<li>
+									<a href="">
+										<img src="tmp/1.jpg" /><br/>
+										<span>Вагон цистерна</span>
+									</a>
+									<p>модель: 15702-04</p>
+								</li>
+								<li>
+									<a href="">
+										<img src="tmp/2.jpg" /><br/>
+										<span>Трактор</span>
+									</a>
+									<p>модель: РТ2-160</p>
+								</li>
+								<li>
+									<a href="">
+										<img src="tmp/3.jpg" /><br/>
+										<span>Погрузчик универсальный</span>
+									</a>
+									<p>модель: ПУМ-500Уь</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer b-footer">
+		<div class="h-footer-wrapper">
+			<p class="copyright">&copy; 2009 "ЗАО УБТ-УРАЛВАГОНЗАВОД"</p>
+			<p class="creators">Разработка сайта - <a href="http://www.tagilweb.ru">www.TagilWeb.ru</a></p>
+		</div>
+	</div>
+</body>
+</html>

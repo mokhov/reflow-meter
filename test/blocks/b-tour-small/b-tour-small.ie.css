@@ -1,0 +1,15 @@
+.b-tour-small
+{
+    height: 65px;
+}
+
+.b-tour-small__title
+{
+    zoom: 1;
+}
+
+.b-tour-small__image
+{
+    cursor: pointer;
+    margin-bottom: -100%;
+}

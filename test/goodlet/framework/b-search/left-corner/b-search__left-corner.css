@@ -1,0 +1,11 @@
+.b-search__left-corner
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	display: block;
+	
+	height: 37px;
+	width: 16px;
+}

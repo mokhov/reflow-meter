@@ -1,0 +1,125 @@
+
+.g-line {
+	zoom: 1;
+}
+
+
+* html .ie-clear-after-photo {
+	margin-top: -200px;
+}
+
+/* Шапка */
+.b-header {
+	zoom: 1;
+	}
+	.b-header .extra .required-navigation li {
+		zoom: 1;
+		display: inline;
+		}
+
+	* html .b-header .extra .required-navigation li.first-child {
+		border-left: none;
+		}
+		
+* html .b-header .extra .required-navigation li a img {
+			position: static;
+			margin-top: 3px;
+			}	
+* html .b-header .extra .phone .code {
+	position: static;
+	}
+	
+.b-header .extra [class].required-navigation {
+	padding-bottom: .3em;
+}
+
+.b-header .extra [class].phone {
+	zoom: 1; 
+}	
+.b-header .extra .phone [class].code {
+	zoom: 1;
+	margin-right: 3px;
+}
+
+/* Главное меню */
+.b-main-menu li a {
+	zoom: 1;
+	}
+.b-main-menu li.active span {
+	padding: .7em 1.3em 2.4em 1.2em;
+	}
+
+* html .b-main-menu li.active {
+	right: -1px;
+	margin-right: 0;
+}
+
+.b-main-menu li .sub {
+	margin-left: 0;
+	left: 0;
+	top: 100%;
+	}
+	.b-main-menu li [class].sub {
+		padding-left: 1.2em;
+	}
+
+* html .b-main-menu li.first-child {
+	border-left: none;
+	}
+	
+* html .b-main-menu li.first-child.active {
+	padding: .6em 1px .4em 1px;
+	margin-left: -1px;
+	}
+* html .b-main-menu li.first-child.active span {
+	left: 0px;
+	}
+* html .b-main-menu li .sub .sub-tr {
+	top: -1px;
+	}
+* html .b-main-menu li .sub .sub-br {
+	bottom: -1px;
+	}	
+
+	
+/* Photos changer at main */
+* html .b-photo-changer .l-wrapper li img,
+* html .b-photo-changer .l-wrapper-changer .prev-button img,
+* html .b-photo-changer .l-wrapper-changer .next-button img{
+	background-image: expression(
+		this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ")",
+		this.style.backgroundImage = "none",
+		this.src = "img/z.gif");
+	}
+	
+* html .b-photo-changer .l-wrapper li .l-item-wrapper .b-tip .i {
+	background-image: expression(
+		this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.currentStyle.backgroundImage.split('\"')[1] + ")",
+		this.style.backgroundImage = "none",
+		this.src = "img/z.gif");
+	}
+* html .b-photo-changer .l-wrapper-changer .prev-button {
+		left: 30px;
+		zoom: 1;
+	}
+* html.b-photo-changer .l-wrapper-changer .next-button {
+	right: auto;
+	left: 1000px;
+	zoom: 1;
+	}
+
+/* b-catalog */
+* html .b-catalog .item img {
+	background-image: expression(
+		this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ")",
+		this.style.backgroundImage = "none",
+		this.src = "img/z.gif");
+	}
+	
+/* b-sub-menu */
+.b-sub-menu li ul li {
+	line-height: 1;
+	}
+	.b-sub-menu li ul li a {
+		zoom: 1;
+		}

@@ -1,0 +1,39 @@
+.b-block-group
+{
+	margin: 5em 0 0;
+	clear: both;
+}
+.b-block-group h2
+{
+	font: 2.1em Arial;
+	margin-bottom: 1em;
+}
+.b-block-group h3
+{
+	font: 1.8em Arial;
+	margin-bottom: 1em;
+}
+.b-block-group .std-list,
+.b-block-group .linked-list
+{
+	margin-top: 1em;
+	list-style: none;
+}
+.b-block-group .std-list li
+{
+	margin-left: -18px;
+	padding-left: 18px;
+	background: url(b-block-group-list-marker.gif) 0 .6em no-repeat;
+	font: 1.3em Arial;
+	margin-bottom: .4em;
+	//zoom: 1;
+}
+.b-block-group .linked-list li {
+	font: 1.3em Arial;
+	margin-bottom: .5em;
+}
+
+.b-block-group .std-list li a
+{
+	color: #0033ff;
+}

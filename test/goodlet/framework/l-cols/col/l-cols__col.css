@@ -1,0 +1,6 @@
+/* Колонка */ /**/
+
+.l-cols .l-cols__col
+{
+	float: left;
+}

@@ -1,0 +1,51 @@
+.b-country
+{
+    
+}
+
+.b-country__flag
+{
+    margin-bottom: 0.2em;
+
+    display: block;
+    float: left;
+}
+
+.b-country__flag-img
+{
+    border: 1px solid #000;
+}
+
+.b-country__name
+{
+    display: block;
+    float: left;
+    clear: left;
+
+    text-decoration: underline;
+}
+
+.b-country__link
+{
+    font: 1.1em Arial;
+    
+    color: #008692;
+
+    cursor: pointer;
+}
+
+a.b-country__link:hover
+{
+    color: #75bbc1;
+
+    cursor: pointer;
+
+    word-spacing: 0;
+}
+
+/* Задисабленная страна (begin) */ /**/
+    .b-country_disabled
+    {
+        opacity: 0.3;
+    }
+/* Задисабленная страна (end) */ /**/

@@ -1,0 +1,35 @@
+@import url(_4/b-round_4.css);
+@import url(_7/b-round_7.css);
+@import url(_13/b-round_13.css);
+
+.b-round
+{
+	font: 0/0 a;
+	position: relative;
+	
+	display: block;
+	
+	height: 0;
+}
+
+.b-round i
+{
+	position: absolute;
+	
+	display: block;
+	
+	background-image: url(b-round.png);
+}
+
+.b-round .l
+{
+	left: 0;
+}
+.b-round .r
+{
+	margin-left: 100%;
+}
+.b-round .t
+{
+	top: 0;
+}

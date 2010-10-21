@@ -1,0 +1,22 @@
+/**
+ * Yandex style user profile link.
+ */
+
+.b-user-link
+{
+	font: bold 1.3em Arial;
+	
+	color: black;
+}
+
+.b-user-link .first-letter
+{
+	text-decoration: underline;
+	
+	color: #e93524;
+}
+
+.b-user-link:hover 
+{
+	color: #e93524;
+}

@@ -1,0 +1,62 @@
+.b-head
+{
+	position: relative;
+	width: 100%;
+}
+.b-head .gap 
+{
+	width: 2%;
+}
+.b-head .l 
+{
+	width: 16%;
+}
+.b-head .profile
+{
+	width: 80%;
+}
+
+.b-head .logo
+{
+	padding: 0 15px;
+	vertical-align: bottom;
+}
+.b-head .logo .logo__wrap
+{
+	margin: 0 auto;
+	position: relative;
+	width: 100px;
+	height: 30px;
+}
+.b-head .logo .logo__wrap img
+{
+	position: absolute;
+	bottom: 0;
+	top: -10px;
+}
+
+.b-head .gradient
+{
+	padding: .1em 0 .3em;
+}
+
+/* Ссылки профиля */
+.b-head_links
+{
+	padding: .6em 0 1em;
+	text-align: right;
+	list-style: none;
+}
+.b-head_links li
+{
+	display: inline;
+	margin-left: 15px;
+}
+.b-head_links li a
+{
+	font: bold 1.3em Arial;
+}
+.b-head_link
+{
+	color: #ad262d;
+}

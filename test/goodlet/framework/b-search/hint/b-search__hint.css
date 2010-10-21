@@ -1,0 +1,15 @@
+.b-search__hint
+{
+	font: 1.8em Arial;
+	
+	position: relative;
+	bottom: -0.4em;
+	
+	height: 37px;
+	margin-bottom: -37px;
+	
+	float: left;
+	
+	cursor: text;
+	color: #999fa2;
+}

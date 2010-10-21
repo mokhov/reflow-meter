@@ -1,0 +1,27 @@
+.b-vacation-type-button
+{
+    font: 1.6em/1.4 Arial;
+
+    padding: 0.1em 1em;
+
+    display: -moz-inline-box;
+    display: inline-block;
+
+    text-decoration: none;
+    white-space: nowrap;
+
+    color: #000;
+    border: 2px solid #d83c73;
+}
+
+.b-vacation-type-button_checked
+{
+    padding: 0.25em 1em;
+    
+    border: 0;
+    color: #fff;
+    background: #cc3067 url(b-vacation-type-button_selected.gif) repeat-x;
+    background: -moz-linear-gradient(-90deg, #ea4e85 0, #cc3067 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ea4e85), color-stop(1, #cc3067));
+
+}

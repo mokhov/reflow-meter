@@ -1,0 +1,36 @@
+.b-tour-small
+{
+    position: relative;
+    padding-left: 72px;
+}
+
+.b-tour-small__title
+{
+    font: 1.6em Arial;
+
+    padding-top: 5px;
+}
+
+.b-tour-small__name
+{
+    color: #008692;
+    margin-right: 0.25em;
+}
+
+a.b-tour-small__name:hover
+{
+    color: #75bbc1;
+}
+
+.b-tour-small__image
+{
+    float: left;
+    margin: 0 -100% 0 -72px;
+}
+
+.b-tour-small__description
+{
+    font: 1.3em/1.4 Arial;
+    
+    color: #807f7f;
+}
